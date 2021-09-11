@@ -1,0 +1,22 @@
+{
+  "name": "boxiclient",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/test"
+  },
+  "keywords": [],
+  "author": "Bedanta Mukhopadhay",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.20.5",
+    "reflect-metadata": "^0.1.13"
+  }
+}
