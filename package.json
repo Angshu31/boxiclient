@@ -1,10 +1,12 @@
 {
   "name": "boxiclient",
   "version": "0.1.0",
-  "description": "",
+  "description": "A TS decorator client for Typebox",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/test"
+    "start": "ts-node src/test",
+    "dev": "ts-node-node src/test",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Bedanta Mukhopadhay",
@@ -13,10 +15,13 @@
     "@types/node": "^16.9.1",
     "ts-node": "^10.2.1",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "@sinclair/typebox": "^0.20.5"
   },
   "dependencies": {
-    "@sinclair/typebox": "^0.20.5",
     "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {
+    "@sinclair/typebox": "^0.20.5"
   }
 }
